@@ -3,7 +3,7 @@ function createGrid(gridSize) {
   const gridContainer = document.getElementById("gridContainer");
   gridContainer.innerHTML = ""; // Clear the existing grid
 
-  const containerSize = 200; // Adjust this value as needed
+  const containerSize = 500; // Adjust this value as needed
   const borderWidth = 1; // Border width in pixels
   const totalBorderWidth = 2 * borderWidth; // Account for both sides of the border
   const squareSize = (containerSize - totalBorderWidth) / gridSize;
